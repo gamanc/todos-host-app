@@ -15,7 +15,12 @@ const Input = ({ value, onChange, onSubmit }: Props) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div>
+      <div
+        style={{
+          display: "inline-flex",
+          gap: 3,
+        }}
+      >
         <input
           type="text"
           value={value}
