@@ -25,6 +25,7 @@ const Input = ({ value, onChange, onSubmit }: Props) => {
           type="text"
           value={value}
           required
+          placeholder="Do laundry, buy milk..."
           onChange={(e: ChangeEvent<HTMLInputElement>) =>
             onChange(e.target.value)
           }
